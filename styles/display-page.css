@@ -1,0 +1,46 @@
+body {
+	margin-top: 50px;
+}
+.big-box {
+	height: 500px;
+	width: 800px;
+	border: 1px solid black;
+	font-size: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.green-box {
+	height: 200px;
+	width: 50%;
+	background-color: green;
+	border: 1px solid black;
+	display: inline-block;
+}
+.blue-box {
+	height:200px;
+	width: 50%;
+	background-color: blue;
+	border: 1px solid black;
+	display: inline-block;
+}
+.grey-box {
+	height: 300px;
+	width: 33.33%;
+	background-color: grey;
+	border: 1px solid black;
+	display: inline-block;
+}
+.black-box {
+	height: 300px;
+	width: 33.33%;
+	background-color: black;
+	border: 1px solid black;
+	display: inline-block;
+}
+.orange-box {
+	height: 300px;
+	width: 33.33%;
+	background-color: orange;
+	border:1px solid black;
+	display: inline-block;
+}
