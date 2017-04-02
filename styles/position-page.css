@@ -1,1 +1,66 @@
+.container {
+	padding-left:60px;
+	padding-right:60px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+}
+
+nav .icon {
+	height: 50px;
+	border-radius: 50%; /*is 50% max? anything over looks the same*/
+	vertical-align: middle;
+	border: 1px solid black;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+li {
+	display: inline-block;
+	}
+nav li::after {
+	content: "|";
+	margin-left: 5px;
+}
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
+.box { /*how come when I put in the correct code it goes all crazy?*/
+	height: 300px;
+	width: 600px;
+	border: 10px dotted green;
+	position: relative;
+	left: 350px;
+	top: 200px;
+}
+
+.cat, .dog {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+.cat {
+	top: -90px;
+	left: -90px;
+	/* negative numbers???*/
+}
+.dog {
+	bottom: -120px;
+	right: -60px;
+}
+html {
+	background: url(https://raw.githubusercontent.com/benjaminEwhite/css_layout_exercises/master/images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
